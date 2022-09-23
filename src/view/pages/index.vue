@@ -1,5 +1,9 @@
 <template>
-  <Tutorial />
+  <div>
+    <auth-login />
+
+    <auth-logout />
+  </div>
 </template>
 
 <script lang="ts">
