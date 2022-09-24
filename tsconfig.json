@@ -12,10 +12,11 @@
     "experimentalDecorators": true,
     "baseUrl": "./src",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
+      "@app/*": ["./app/*"],
+      "@view/*": ["./view/*"]
     },
     "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node"]
   },
+  "include": ["src"],
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

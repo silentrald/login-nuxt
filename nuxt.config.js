@@ -1,3 +1,5 @@
+import { resolve } from 'path'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   // ssr: false,
@@ -63,4 +65,9 @@ export default {
   build: {},
 
   srcDir: 'src/view/',
+
+  alias: {
+    '@app': resolve(__dirname, './src/app'),
+    '@view': resolve(__dirname, './src/view'),
+  },
 }

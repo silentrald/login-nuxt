@@ -8,8 +8,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-/* import { authLogin } from '@/app/modules/auth/use-case' */
-import { authLogin } from '../../../app/modules/auth/use-case'
+import { authLogin } from '@app/modules/auth/use-case'
 
 export default Vue.extend({
   name: 'AuthLoginComponent',

@@ -1,6 +1,5 @@
-import makeHttpService from  '../../../shared/http/service'
 import makeAuthApi from './api'
-// import makeHttpService from '@/app/shared/http/service'
+import makeHttpService from '@app/shared/http/service'
 
 const service = makeHttpService({
   baseUrl: '/api',

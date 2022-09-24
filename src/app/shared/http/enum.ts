@@ -23,7 +23,7 @@ export enum HttpStatusCode {
 
 export enum HttpContentType {
   APPLICATION_JSON = 'application/json',
-  APPLICATION_FLATBUFFERS = 'application/flatbuffers',
+  APPLICATION_FLATBUFFER = 'application/flatbuffer',
   TEXT_HTML = 'text/html',
 }
 

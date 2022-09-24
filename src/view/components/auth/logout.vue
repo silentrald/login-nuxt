@@ -4,8 +4,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-/* import { authLogout } from '@/app/modules/auth/use-case' */
-import { authLogout } from '../../../app/modules/auth/use-case'
+import { authLogout } from '@app/modules/auth/use-case'
 
 export default Vue.extend({
   name: 'AuthLogoutComponent',
